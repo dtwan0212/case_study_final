@@ -135,12 +135,12 @@ a {
 .nav-submenu-item .nav-sub-item2:first-child {
   position: absolute;
   top: 0;
-  left: -220px;
+  left: -210px;
 }
 .nav-submenu-item .nav-sub-item2:last-child {
   position: absolute;
   top: 40px;
-  left: -220px;
+  left: -210px;
 }
 
 .navbar-toggler {
@@ -199,7 +199,7 @@ a {
   width: 185px;
   height: 45px;
   background-color: red;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .slogan .bg-btn:hover {
   background-color: black;
@@ -209,7 +209,7 @@ a {
 }
 
 header {
-  margin-top: -200px;
+  margin-top: -210px;
 }
 
 .res-info {
@@ -289,10 +289,8 @@ header {
 
 * {
   font-family: "Lobster", cursive;
-  font-family: "Poppins", sans-serif;
   font-family: "Rubik", sans-serif;
   font-family: "Sedgwick Ave Display", cursive;
-  font-family: "Ubuntu", sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

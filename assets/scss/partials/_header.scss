@@ -144,12 +144,12 @@ a {
     .nav-sub-item2:first-child {
                position: absolute;
                top: 0;
-               left: -220px;
+               left: -210px;
             }
     .nav-sub-item2:last-child {
                 position: absolute;
                 top: 40px;
-                left: -220px;
+                left: -210px;
              }
    
 }
@@ -158,7 +158,7 @@ a {
     border: none !important;
     color: white !important;
 }
-// Banner
+
 .background-img{
     width: 100%;
     height: 786px;
@@ -210,7 +210,7 @@ a {
         width: 185px;
         height: 45px;
         background-color: red;
-        transition: 0.5s;
+        transition: 0.3s;
         &:hover{
             background-color: black;
         }
@@ -221,5 +221,5 @@ a {
 }
 
 header{
-    margin-top: -200px;
+    margin-top: -210px;
 }
