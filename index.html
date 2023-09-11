@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top" aria-label="Dark offcanvas navbar">
+    <div class="container d-flex justify-content-center">
+      <a class="menu_btn-hidden navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark" aria-controls="offcanvasNavbarDark" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbarDark" aria-labelledby="offcanvasNavbarDarkLabel">
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active me-2" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#">MENU</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#">BLOG <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-menu-item">
+                    <li class="nav-sub-item"><a href="#" class="nav-link-tier1">Blog Home</a></li>
+                    <li class="nav-sub-item"><a href="#" class="nav-link-tier1">Blog Single</a></li>
+                </ul>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link me-2" href="#">PAGES <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-menu-item">
+                    <li class="nav-sub-item-pages"><a class="nav-link-tier1" href="">Elements</li></a>
+                    <li class="nav-sub-item-pages"><a class="nav-link-tier1" href="">Level 2 <i class="fa-solid fa-chevron-down fa-rotate-270"></i></a>
+                        <ul class="nav-submenu-item">
+                            <li class="nav-sub-item2"><a class="nav-link-tier2" href="">Item One</a></li>
+                            <li class="nav-sub-item2"><a class="nav-link-tier2" href="">Item Two</a></li>
+                        </ul>
+                    </li>   
+                </ul>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li> 
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header class="background">
+    <div class="background-img">
+    </div>
+    <div class="background-content">
+      <div class="container-fluid">
+        <div class="logo d-flex justify-content-center pt-3">
+          <img src="./assets/img/logo.png" alt="">
+        </div>
+        <div class="row logo-wrapper">
+          <div class="slogan col-lg-8 col-sm-12">
+            <h5>WIDE OPTIONS OF CHOICE</h5>
+            <h1>Delicious Recipes</h1>
+            <p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially in the workplace. That’s why it’s crucial that, as women.</p>
+            <button class="bg-btn"><a href="#">CHECK OUR MENU</a></button>
+          </div>
+          </div>
+        </div>
+      </div>
+  </header>  
+  <main>
+    <section class="res-story container-fluid">
+      <div class="res-story-wrapper row justify-content-center">
+        <div class="story-text px-5 col-lg-6 ">
+          <h2>About Our Story</h2>
+          <p>Who are in extremely love with eco friendly system. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <button>VIEW FULL MENU</button>
+        </div>
+        <div class="story-img col-lg-6 gy-5">
+          <img src="./assets/img/about-img.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="food-category">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="food-category-text col-lg-8 text-center">
+            <h1>What kind of Foods we serve for you</h1>
+            <p>Who are in extremely love with eco-friendly systems.</p>
+          </div>
+        </div>
+          <div class="food-category-menu">
+            <div class="food-category-container row ">
+              <ul class="food-category-box col-lg-12 nav mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn food-category-btn1st active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-1"
+                    type="button" role="tab" aria-controls="pills-1" aria-selected="true">All
+                    Menu</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-2" type="button"
+                    role="tab" aria-controls="pills-2" aria-selected="false">Breakfast</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-3" type="button"
+                    role="tab" aria-controls="pills-3" aria-selected="false">lunch</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-4" type="button"
+                    role="tab" aria-controls="pills-4" aria-selected="false">Dinner</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-5" type="button"
+                    role="tab" aria-controls="pills-5" aria-selected="false">Budget Meal</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="food-category-btn food-category-btnlast" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-6" type="button"
+                    role="tab" aria-controls="pills-6" aria-selected="false">Buffet</button>
+                </li>
+              </ul>
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-home-tab">
+                  <div class="row food-category-menu-wrapper">
+                    <div class="col-lg-6 col-md-12 all breakfast food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Cappuccino</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Americano</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Macchiato</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 all  food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Mocha</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Piccolo Latte</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Ristretto</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-profile-tab">
+                  <div class="row container food-category-menu-wrapper">
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Cappuccino</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Mocha</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row container food-category-menu-wrapper">
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Piccolo Latte</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row container food-category-menu-wrapper">
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Americano</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row container food-category-menu-wrapper">
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Macchiato</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-6" role="tabpanel" aria-labelledby="pills-contact-tab">
+                  <div class="row container food-category-menu-wrapper">
+                    <div class="col-md-6 all food-category-item">
+                      <div class="single-menu">
+                        <div class="title-wrap d-flex justify-content-between">
+                          <h4>Ristretto</h4>
+                          <h4 class="price">$49</h4>
+                        </div>
+                        <p>Usage of the Internet is becoming more common due to rapid advance.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="food-category-xtraspace"></div>
+    </section>
+    <section class="reservation">
+      <div class="rsvn-background">
+        <img src="./assets/img/reservation-bg.jpg" alt="">
+      </div>
+      <div class="rsvn-shadow"> 
+      </div>
+      <div class="rsvn-wrapper">
+        <div class="rsvn-content container">
+          <div class="row justify-content-center">
+            <div class="rsvn-text col-lg-6 col-md-12">
+              <h1>Reserve Your Seats to Confirm if You Come with Your Family</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+            </div>
+            <div class="rsvn-form col-lg-6 col-md-12"> 
+              <form class="form-wrap text-center" action="#">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'">
+                <input type="email" class="form-control" name="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'">
+                <input type="text" class="form-control" name="phone" placeholder="Phone Number" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone Number'">
+                <input type="datetime" class="form-control date-picker hasDatepicker" name="date" placeholder="Select Date &amp; time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Select Date &amp; time'" id="dp1693802858798">
+                <div class="form-select-container" tabindex="0">
+                  <select class="form-select" aria-label="Default select example">
+                    <option class="form__select-textred">Select Event</option>
+                    <option class="form__select-hover" value="1">Event One</option>
+                    <option class="form__select-hover" value="2">Event Two</option>
+                    <option class="form__select-hover" value="3">Event Three</option>
+                    <option class="form__select-hover"value="4">Event Four</option>
+                  </select>
+                </div>
+                <button class="form-rsvnbtn">Make Reservation</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section class="food-gallery ">
+      <div class="container">
+        <div class="d-flex justify-content-center">
+          <div class="food-gallery-text col-lg-8 text-center">
+            <h1>Food and Customer Gallery</h1>
+            <p>Who are in extremely love with eco-friendly systems.</p>
+          </div>
+        </div>
+        <div class="food-gallery-menu container">
+          <div class="food-gallery-container row">
+            <ul class="food-gallery-box col-lg-12 nav mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn food-gallery-btn1st active" id="pills-menu" data-bs-toggle="pill" data-bs-target="#pills-A"
+                  type="button" role="tab" aria-controls="pills-A" aria-selected="true">All
+                  Menu</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn" id="pills-breakfast" data-bs-toggle="pill" data-bs-target="#pills-B" type="button" role="tab"
+                  aria-controls="pills-B" aria-selected="false">Breakfast</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn" id="pills-lunch" data-bs-toggle="pill" data-bs-target="#pills-C" type="button" role="tab"
+                  aria-controls="pills-C" aria-selected="false">lunch</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn" id="pills-dinner" data-bs-toggle="pill" data-bs-target="#pills-D" type="button" role="tab"
+                  aria-controls="pills-D" aria-selected="false">Dinner</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn" id="pills-budget" data-bs-toggle="pill" data-bs-target="#pills-E" type="button" role="tab"
+                  aria-controls="pills-E" aria-selected="false">Budget Meal</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="food-gallery-btn food-gallery-btnlast" id="pills-buffet" data-bs-toggle="pill" data-bs-target="#pills-F" type="button" role="tab"
+                  aria-controls="pills-F" aria-selected="false">Buffet</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-gallery">
+              <div class="tab-pane fade show active container" id="pills-A" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row food-gallery-menu-wrapper">
+                  <div class="all breakfast food-gallery-item col-lg-4 col-md-6 col-sm-12">
+                    <div class="gallery-menu1">
+                      <img src="./assets/img/g1.jpg" alt="">
+                      <img src="./assets/img/g4.jpg" alt="">
+                    </div>
+                    <div class="gallery-menu2">
+                      <img src="./assets/img/g2.jpg" alt="">
+                      <img src="./assets/img/g6.jpg" alt="">
+                    </div>
+                    <div class="gallery-menu3">
+                      <img src="./assets/img/g3.jpg" alt="">
+                      <img src="./assets/img/g5.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-B" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row container food-gallery-menu-wrapper">
+                  <div class="col-lg-4 col-md-6 col-sm-12 all breakfast food-gallery-item">
+                    <div class="gallery-menu1">
+                      <img src="./assets/img/g1.jpg" alt="">
+                    </div>
+                    <div class="gallery-menu2">
+                      <img src="./assets/img/g4.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-C" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="col-lg-4 col-md-6 col-sm-12 all lunch food-gallery-item">
+                  <div class="gallery-menu2">
+                    <img src="./assets/img/g5.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-D" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="col-lg-4 col-md-6 col-sm-12 all lunch food-gallery-item">
+                  <div class="gallery-menu2">
+                    <img src="./assets/img/g2.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-E" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="col-lg-4 col-md-6 col-sm-12 all lunch food-gallery-item">
+                  <div class="gallery-menu2">
+                    <img src="./assets/img/g3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-F" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div class="col-lg-4 col-md-6 col-sm-12 all lunch food-gallery-item">
+                  <div class="gallery-menu2">
+                    <img src="./assets/img/g6.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="customer-reviews">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="customer-image">
+            <img src="./assets/img/review-bg.jpg" alt="">
+          </div>
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="container">
+              <div class="row">
+                <div class="carousel-inner col-sm-12 col-md-12 col-lg-12 col-sx-12">
+                  <div class="carousel-item active" data-bs-ride="carousel">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="customer-avatar">
+                        <img src="./assets/img/user.png" alt="">
+                        <h5>Hulda Sutton</h5>
+                        <div class="customer-rating">
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #777777;"></i>
+                        </div>
+                      </div>
+                      <div class="customer-text">
+                        <p>“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker.”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-ride="carousel">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="customer-avatar">
+                        <img src="./assets/img/user.png" alt="">
+                        <h5>Hulda Sutton</h5>
+                        <div class="customer-rating">
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #777777;"></i>
+                        </div>
+                      </div>
+                      <div class="customer-text">
+                        <p>“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker.”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-ride="carousel">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="customer-avatar">
+                        <img src="./assets/img/user.png" alt="">
+                        <h5>Hulda Sutton</h5>
+                        <div class="customer-rating">
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #777777;"></i>
+                        </div>
+                      </div>
+                      <div class="customer-text">
+                        <p>“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker.”</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-ride="carousel">
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="customer-avatar">
+                        <img src="./assets/img/user.png" alt="">
+                        <h5>Hulda Sutton</h5>
+                        <div class="customer-rating">
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #ffc000;"></i>
+                          <i class="fa-solid fa-star" style="color: #777777;"></i>
+                        </div>
+                      </div>
+                      <div class="customer-text">
+                        <p>“Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker. Here you can find the best computer accessory for your laptop, monitor, printer, scanner,
+                          speaker.”</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog d-flex justify-content-center">
+      <div class="blog-wrapper">
+        <div class="blog-text text-center">
+          <h1>Latest From Our Blog</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="container">
+          <div class="blog-foodcard row">
+            <div class="food-card col-lg-3 col-md-6 col-sm-12">
+              <div class="food-card-img">
+                <img src="./assets/img/b1.jpg" alt="">
+              </div>
+              <div class="food-card-info">
+                <h6 class="food-card-date">10 Jan 2018</h6>
+                <h5><a href="">Cooking Perfect Fried Rice in minutes</a></h5>
+                <p>inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                <div class="food-card-comments">
+                  <p><i class="fa-regular fa-heart"></i></i>15 Likes</p>
+                  <p class="comment"><i class="fa-regular fa-comment"></i> 02 Comments</p>
+                </div>
+              </div>
+            </div>
+            <div class="food-card col-lg-3 col-md-6 col-sm-12">
+              <div class="food-card-img"> 
+                <img src="./assets/img/b2.jpg" alt="">
+              </div>
+              <div class="food-card-info">
+                <h6 class="food-card-date">10 Jan 2018</h6>
+                <h5><a href="">Cooking Perfect Fried Rice in minutes</a></h5>
+                <p>inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                <div class="food-card-comments">
+                  <p><i class="fa-regular fa-heart"></i></i>15 Likes</p>
+                  <p class="comment"><i class="fa-regular fa-comment"></i> 02 Comments</p>
+                </div>
+              </div>
+            </div>
+            <div class="food-card col-lg-3 col-md-6 col-sm-12">
+              <div class="food-card-img">
+                <img src="./assets/img/b3.jpg" alt="">
+              </div>
+              <div class="food-card-info">
+                <h6 class="food-card-date">10 Jan 2018</h6>
+                <h5><a href="">Cooking Perfect Fried Rice in minutes</a></h5>
+                <p>inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                <div class="food-card-comments">
+                  <p><i class="fa-regular fa-heart"></i></i>15 Likes</p>
+                  <p class="comment"><i class="fa-regular fa-comment"></i> 02 Comments</p>
+                </div>
+              </div>
+            </div>
+            <div class="food-card col-lg-3 col-md-6 col-sm-12">
+              <div class="food-card-img">
+                <img src="./assets/img/b4.jpg" alt="">
+              </div>
+              <div class="food-card-info">
+                <h6 class="food-card-date">10 Jan 2018</h6>
+                <h5><a href="">Cooking Perfect Fried Rice in minutes</a></h5>
+                <p>inappropriate behavior ipsum dolor sit amet, consectetur.</p>
+                <div class="food-card-comments">
+                  <p><i class="fa-regular fa-heart"></i></i>15 Likes</p>
+                  <p class="comment"><i class="fa-regular fa-comment"></i> 02 Comments</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="res-info">
+        <div class="container d-flex justify-content-center">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="info-opening">
+                <h4>Opening Hours</h4>
+                <div class="d-flex justify-content-between">
+                  <p class="opening-row1 res-info-date">Monday - Friday</p>
+                  <p class="opening-row1 res-info-weekday">08.00 am - 10.00 pm</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <p class="opening-row2 res-info-date">Saturday</p>
+                  <p class="opening-row2 res-info-sat">08.00 am - 10.00 pm</p>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between">
+                  <p class="opening-row3 res-info-date">Sunday</p>
+                  <p class="opening-row3 res-info-sun">08.00 am - 10.00 pm</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="info-contact">
+                <h4>Contact Us</h4>
+                <p>56/8, los angeles, rochy beach, Santa monica, United states of america - 1205</p>
+                <h2>012-6532-568-9746</h2>
+                <h2>012-6532-569-9748</h2>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="info-news">
+                <h4>Newsletter</h4>
+                <p>You can trust us. we only send promo offers, not a single spam.</p>
+                <form action="">
+                  <div class="reg-form">
+                    <input class="reg-form-email" type="email" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'">
+                      <a href="#footer">
+                        <span class="reg-email-btn">
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                      </a>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="res-copyright text-white container-fluid d-flex justify-content-center">
+        <div class="container pt-3">
+          <div class="row justify-content-between">
+            <div class="copyright-left col-lg-8 col-md-12 col-sm-12">
+             
+            <div class="copyright-right col-lg-4 col-md-12 col-sm-12">
+              <span><a class="footer-icon" href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+              <span><a class="footer-icon" href=""><i class="fa-brands fa-square-twitter"></i></a></span> 
+              <span><a class="footer-icon" href=""><i class="fa-brands fa-dribbble"></i></a></span> 
+              <span><a class="footer-icon" href=""><i class="fa-brands fa-behance"></i></a></span> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+</body>
+
+</html>

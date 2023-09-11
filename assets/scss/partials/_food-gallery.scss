@@ -1,0 +1,85 @@
+// // Food Gallery
+// .food-gallery{
+//     background-color: #f9f9ff;
+//     width: 100%;
+//     min-height: 400px;
+//     margin-top: 100px;
+//     .food-gallery-text{
+//         h1{
+//             font-weight: bolder;
+//             font-size: 38px;
+//         }
+//         p{
+//             color: #777777;
+//             font-size: 14px;
+//             margin-bottom: 80px;
+//         }
+//     }
+// }
+// .food-gallery-container{
+//     .food-gallery-box{
+//         display: flex;
+//         justify-content: center;
+//         border: none;
+//         margin-left: 75px;
+//         width: 1200px;
+//         border: 1px solid black;
+//         .food-gallery-btn{
+//             background-color: #fff;
+//             font-size: 12px;
+//             padding: 40px 70px;
+//             border: none;
+//             &:focus{
+//                 background-color: #f42f2c;
+//                 color: #fff;
+//             }
+            
+//         }
+//     }
+// }
+// .food-gallery-btn1st{
+//     border-radius: 10px 0 0 10px !important;
+// }
+// .food-gallery-btnlast{
+//     border-radius: 0 10px 10px 0 !important;
+// }
+// .food-gallery-menu-wrapper{
+//     width: 1100px;
+//     margin: 0 auto;
+//     margin-left: 105px
+// }
+// .food-gallery-item{
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//     grid-gap: 25px;
+//     .gallery-menu1{
+//         width: 350px;
+//         margin-left: -25px;
+
+//         img{
+//             width: 100%;
+//             margin-bottom: 25px;
+//         }
+//     }
+//     .gallery-menu2{
+//         width: 350px;
+//         margin-bottom: 100px;
+//         img{
+//             width: 100%;
+//             margin-bottom: 25px;
+//         }
+//     }
+//     .gallery-menu3{
+//         width: 350px;
+
+        
+//         img{
+//             width: 100%;
+//             margin-bottom: 25px;
+//         }
+//     }
+    
+// }
+// .lunch{
+//     margin-left: 110px;
+// }
