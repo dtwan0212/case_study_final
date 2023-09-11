@@ -1,0 +1,11 @@
+CẤU TRÚC FILE
+- index.html: file chính
+- assets: chứa các file và thư mục tài nguyên gồm:
+    - css: chứa code CSS
+    - img: chứa các hình ảnh
+    - scss: chứa code SCSS gồm :
+        - main.scss: scss cho file chính
+        - partials gồm:
+            - _mixin.scss: chứa mixin
+            - _header.scss: chứa scss cho header
+            - _footter.scss: chứa scss cho footer
