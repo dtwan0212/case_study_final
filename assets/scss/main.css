@@ -257,36 +257,6 @@ header {
   margin-left: 10px;
 }
 
-.res-copyright {
-  background-color: #222222;
-}
-.res-copyright .copyright-left p {
-  padding-left: 85px;
-}
-.res-copyright .copyright-left a {
-  color: red;
-}
-.res-copyright .copyright-right {
-  position: relative;
-  top: -5px;
-  margin: 0;
-  padding-left: 170px;
-}
-.res-copyright .copyright-right a {
-  color: white;
-  width: 35px;
-  height: 35px;
-}
-.res-copyright .copyright-right span {
-  font-size: 14px;
-  background-color: #111111;
-  display: inline-block;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-}
-
 * {
   font-family: "Lobster", cursive;
   font-family: "Rubik", sans-serif;
@@ -294,4 +264,4 @@ header {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
+}/*# sourceMappingURL=main.css.map */
